@@ -1,0 +1,97 @@
+@media (max-width: 320px) {
+  .flexbox div {
+    flex-basis: 100%;
+  }
+
+  .next,
+  .Previous {
+    width: 50%; 
+  }
+}
+  @media (max-width: 600px) and (max-width: 901px){
+    .flexbox div {
+      flex-basis: 100%;
+    }
+  
+    .next,
+    .Previous {
+      width: 50%; 
+    }
+
+  }
+
+  @media (max-width: 901px) {
+    .flexbox div {
+      flex-basis: 100%;
+    }
+  
+    .next,
+    .Previous {
+      width: 50%; 
+    }
+
+  }
+
+.flex {  
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  .bMain {
+    box-sizing: border-box;
+    flex: 70%;
+    padding: 20px;
+  }
+  
+
+  .myCard {
+    box-sizing: border-box;
+    flex: 30%;
+    padding: 20px;
+  }
+  .flexbox{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .flexbox div{
+    flex: 1;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+  }
+
+  .next {
+    border-radius: 2px;
+    background-color: #00d9ff;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 100px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .next:hover {
+    background-color: #f3f4f5;
+  }
+
+  .Previous {
+    border-radius: 2px;
+    background-color: #00d9ff;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 100px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .Previous:hover{
+    background-color: #ffffff;
+  }

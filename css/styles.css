@@ -1,0 +1,133 @@
+@import url(nav.css);
+@import url(footer.css);
+@import url(ss.css);
+
+@media (max-width: 320px) {
+  .blogCards {
+    grid-template-columns: 1fr;
+  }
+
+  .bPost {
+    max-width: 100%;
+  }
+
+  .container2 {
+    padding-right: 0; 
+  }
+  
+  .aMain {
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) and (max-width: 901px){
+  .blogCards {
+    grid-template-columns: 1fr;
+  }
+
+  .bPost {
+    max-width: 100%;
+  }
+
+  .container2 {
+    padding-right: 0; 
+  }
+  
+  .aMain {
+    height: auto;
+  }
+}
+
+@media (max-width: 901px) {
+  .blogCards {
+    grid-template-columns: 1fr;
+  }
+
+  .bPost {
+    max-width: 100%;
+  }
+
+  .container2 {
+    padding-right: 0; 
+  }
+  
+  .aMain {
+    height: auto;
+  }
+}
+  .aMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b3bacc;
+    height: 250px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+
+  .container {
+    margin: 0 auto;
+    align-items: center;
+    text-align: left;
+ 
+  }
+
+  
+  .container2 {
+    display: grid;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-right: 50px;
+
+  }
+  
+  .blogCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    text-align: left;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .bPost {
+    width: 100%;
+    max-width: 300px;
+    background-color: #b3bacc;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  }
+  .bPost-image {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  .bPost a{
+    display: inline-block;
+    padding: 10px 5px;
+    background-color: #ffffff;
+    color: #ff0000;
+    text-decoration: none;
+    border-radius: 5px;
+    
+  }
+  
+  .bPost a:hover{
+    background-color: #969696;
+
+  }
+
+  .tStyle {
+    
+      font-weight: bold;
+      font-style: italic;
+      text-decoration: underline;
+    
+  }
